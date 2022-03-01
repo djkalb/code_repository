@@ -1,7 +1,7 @@
 from addToDb import addToDb
 from copyFromDb import copyFromDb
 from searchDb import searcher
-from __future__ import match_statement
+
 """
 uses a dictionary of functions calls corresponding function based on UI
 keeps track of state // version 1.0 just uses search | add | copy | 
@@ -34,6 +34,8 @@ def run():
         copyFromDb(table, result)
     if choice == 2:
         searcher(table)
-    
+        print(searcher.__annotations__)
+    if choice == 1:
+        addToDb(table)
     
 run()

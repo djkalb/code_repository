@@ -9,22 +9,20 @@ def addToDb (table):
 
     language = input('Which language is it written in? ')
     descr = input('give a brief description: ')
-    title = input('give it a title? ')
-    project = input('give it a project name? ')
     body = ""
     
-    with open('add.txt') as file:
+    with open('add.txt', 'w+') as file:
         
         for line in file:
             body += line
+        file.write("\n")
     
-    
-    data = (descr, body, title, language, project)
+    data = (descr, body, language)
     with sqlite3.connect('code_repository_.db') as conn:
         c = conn.cursor()
         sqlite_insert_with_param = """INSERT INTO {}
-                          (descr, body, title, language, project) 
-                          VALUES (?, ?, ?, ?, ?);""".format(table)
+                          (descr, body, language) 
+                          VALUES (?, ?, ?);""".format(table)
         c.execute(sqlite_insert_with_param, data)
         
         conn.commit()

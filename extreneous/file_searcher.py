@@ -49,10 +49,10 @@ tableDict = {
 }
 
 #catch attempt to open unnested table???
-def search(test, state):
-    for item in state:
+#0def search(test, state):
+    #for item in state:
 
-        print(item)
+        #print(item)
 
 
 
@@ -77,7 +77,7 @@ def fileFinder(Tdict, state):
         words = input('would you like to search this file?(y/n)'  )
         if words == 'y':
             
-            print(options[choice])
+            print(fileFinder.__annotations__)
             search(Tdict[options[choice]], state)
     
         

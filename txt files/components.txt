@@ -1,0 +1,82 @@
+searchable list of language folders
+
+- databases containing different code or cheatsheets
+- search dBs for description of code
+- identify search matches then present to user
+- copy into file automatically at specified line number
+- select txt from current file and append it into local repository
+- run() saves a record of state permitting users to go back , and continue from last spot on rerun
+- copy will present user with list of files from cwd to choose from
+- add will 
+
+
+simplest version --- completed
+
+-- run module from python in cmd choose from lst of text files open selected file 
+-- uses inputs to interact (y/n)super simple 
+
+version 1.0 -- almost completed 
+
+-- query tables by descr. open selected results in a txt file  DONE
+-- refine search using a nested dictionary use results to query more selectively DONE
+-- run() saves a record of state permitting users to go back , and continue from last spot on rerun CANCELLED
+-- add will read from txt file and place into dB  DONE
+-- 
+
+
+
+ version 2.0 will
+
+-- allow users to copy or add into selected file in cwd at chosen line no -- the db does keep the formatting provided you print it
+-- have only one table || just algorithms for now need to do one thing well not ten things shittily
+-- copy into and from cwd still needed let user choose txt file or program
+-- configurable cwd
+-- input will not work for descr insertion since you cannot copy and paste into cmd line
+-- 
+-- search will return list of top 5 // 
+if all results are 0 will ask to search again with different phrasing for new 
+-- completely reconfigure search algorithm
+need to create a different kind of table 
+-- run will have a next and back to print the descriptions of different results
+-- selected result will be copied where specified
+-- program will just terminate
+-- be able to delete entries in local
+
+
+Configure python path
+
+need at least 3 tables to start
+one to save state information from user -- will need a login eventually when i want multiple users 
+-- user table 
+-- current project
+-- language to search for
+-- path to file 
+
+-- table of users -- primary keys for users // user auth // user privelidges
+
+-- algorithm table
+user supplied
+-- input parameters
+-- description of method
+-- output of method
+-- code body
+-- removed?
+generated
+-- search text -- paragraph of input - description - output with synonyms and verb tenses
+created when entered in 
+-- user who entered it 
+-- number of times used
+-- reports of invalidity
+-- algorithm isValid ?? 
+
+
+
+
+
+
+
+
+
+
+
+

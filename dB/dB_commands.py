@@ -35,13 +35,13 @@ Cheatsheets:
 with sqlite3.connect("code_repository_.db") as conn:
     c = conn.cursor()
     
-    c.execute("""CREATE TABLE IF NOT EXISTS Algorithm_tbl(ID INTEGER PRIMARY KEY AUTOINCREMENT, descr TEXT, body TEXT, title TEXT, language TEXT, project TEXT)""")
+    c.execute("""CREATE TABLE IF NOT EXISTS Algorithm_tbl(ID INTEGER PRIMARY KEY AUTOINCREMENT, descr TEXT, body TEXT, language TEXT)""")
     c.execute("""CREATE TABLE IF NOT EXISTS Error_tbl(ID INTEGER PRIMARY KEY AUTOINCREMENT, descr TEXT, body TEXT, title TEXT, language TEXT,  attempts TEXT)""")
     c.execute("""CREATE TABLE IF NOT EXISTS Layout_tbl(ID INTEGER PRIMARY KEY AUTOINCREMENT, descr TEXT, body TEXT, title TEXT, language TEXT)""")
     c.execute("""CREATE TABLE IF NOT EXISTS Cheatsheet_tbl(ID INTEGER PRIMARY KEY AUTOINCREMENT, descr TEXT, body TEXT, title TEXT, language TEXT)""")
 c.close()
 
-
+''' 
 # sample data -- small list will need to enlarge soonish
 with sqlite3.connect("code_repository_.db") as conn:
     c = conn.cursor()
@@ -56,7 +56,7 @@ with sqlite3.connect("code_repository_.db") as conn:
     
     conn.commit()
 c.close()
-
+'''
 with sqlite3.connect("code_repository_.db") as conn:
     c = conn.cursor()
     for row in c.execute('SELECT * FROM Algorithm_tbl'):
