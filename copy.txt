@@ -1,8 +1,0 @@
-tables = {1: 'Algorithm_tbl', 2: 'Error_tbl', 3: 'Layout_tbl', 4: 'Cheatsheet_tbl'}
-    print(tables)
-    table = int(input('pick a table: '))
-    language = input('Which language is it written in? ')
-    descr = input('give a brief description: ')
-    title = input('give it a title? ')
-("tables = {1: 'Algorithm_tbl', 2: 'Error_tbl', 3: 'Layout_tbl', 4: 'Cheatsheet_tbl'}\n    print(tables)\n    table = int(input('pick a table: '))\n    language = input('Which language is it written in? ')\n    descr = input('give a brief description: ')\n    title = input('give it a title? ')",)
-
