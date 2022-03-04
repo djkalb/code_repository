@@ -1,0 +1,15 @@
+C:\Users\David\Documents\ModelLibrary\bin\Debug\netcoreapp3.1\ModelLibrary.deps.json
+C:\Users\David\Documents\ModelLibrary\bin\Debug\netcoreapp3.1\ModelLibrary.dll
+C:\Users\David\Documents\ModelLibrary\bin\Debug\netcoreapp3.1\ModelLibrary.pdb
+C:\Users\David\Documents\ModelLibrary\obj\Debug\netcoreapp3.1\ModelLibrary.csproj.AssemblyReference.cache
+C:\Users\David\Documents\ModelLibrary\obj\Debug\netcoreapp3.1\ModelLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\David\Documents\ModelLibrary\obj\Debug\netcoreapp3.1\ModelLibrary.AssemblyInfoInputs.cache
+C:\Users\David\Documents\ModelLibrary\obj\Debug\netcoreapp3.1\ModelLibrary.AssemblyInfo.cs
+C:\Users\David\Documents\ModelLibrary\obj\Debug\netcoreapp3.1\ModelLibrary.csproj.CoreCompileInputs.cache
+C:\Users\David\Documents\ModelLibrary\obj\Debug\netcoreapp3.1\ModelLibrary.dll
+C:\Users\David\Documents\ModelLibrary\obj\Debug\netcoreapp3.1\ModelLibrary.pdb
+C:\Users\David\Documents\ModelLibrary\bin\Debug\netcoreapp3.1\ModelLibrary.runtimeconfig.json
+C:\Users\David\Documents\ModelLibrary\bin\Debug\netcoreapp3.1\ModelLibrary.runtimeconfig.dev.json
+C:\Users\David\Documents\ModelLibrary\obj\Debug\netcoreapp3.1\ModelLibrary.genruntimeconfig.cache
+C:\Users\David\Documents\ModelLibrary\obj\Debug\netcoreapp3.1\ModelLibrary.Migrations.Code_Repv1.resources
+C:\Users\David\Documents\ModelLibrary\obj\Debug\netcoreapp3.1\ModelLibrary.csproj.GenerateResource.cache
