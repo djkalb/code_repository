@@ -1,0 +1,29 @@
+repos is a console app designed to add and search code algorithms and other helpful tools.
+            accepted arguments are add, search, config, view, and -h for help which can be called for each method individually. 
+            call repos search <search>, <language> etc. can only call one function at a timeadd takes in a list of command line args 
+
+needs to bind information from console to instance of algorithm -- add that to dB
+-- somehow autofill as much information as possible
+-- pull last addition and keep as many fields as possible - make user verify them though - flag to keep all settings cept descr and code
+need to either make gui or go back to shell so descr can be copied in -- shouldnt be too hard
+-- grab user id from settings.py / config file
+
+FLAGS
+    -h display add info -> all other flags 
+    -r repeat all info from last submission minus descr and code_body and specified command line args 
+    -v or view -> opens a gui to make it easier -- not immediate
+    -l: <language> 
+    -d: <description>
+    -c pulls the code body from the clipboard
+
+--Basic functionality is working
+	-needs data validation very badly
+	-the -r flag needs to wait until working with permanent dB -- can use seed data for initial test
+	-need to add seed data to models class for testing 
+	-add user interaction - make sure a user is attached to every addition to dB 
+	the clean description will have to wait until i build the search, so it can just call the search 
+	
+receives list of arguments executes all of them -instance is created from info --Needs a test to find missing information and allow user to add that info in
+from inside the console app no need to go back to terminal / previews info to make sure it is correct displays a portion of code_base to verify it is correct
+
+

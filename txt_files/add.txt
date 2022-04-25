@@ -1,0 +1,16 @@
+add takes in a list of command line args 
+
+needs to bind information from console to instance of algorithm -- add that to dB
+-- somehow autofill as much information as possible
+-- pull last addition and keep as many fields as possible - make user verify them though - flag to keep all settings cept descr and code
+need to either make gui or go back to shell so descr can be copied in -- shouldnt be too hard
+-- grab user id from settings.py / config file
+
+FLAGS
+    -h display add info -> all other flags 
+    -r repeat all info from last submission minus descr and code_body and specified command line args 
+    -v or view -> opens a gui to make it easier -- not immediate
+    -l: <language> 
+    -d: <description>
+    -c pulls the code body from the clipboard
+

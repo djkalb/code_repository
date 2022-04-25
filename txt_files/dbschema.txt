@@ -1,0 +1,32 @@
+User and algorithm tables to start 
+one user has many algorithms
+user must be authenticated before submitting
+user table
+    username
+    password ??optional allow it to be set if user wants to use same account from multiple computers
+    banned?
+    SUBTABLE
+    unique identifier guid or sha key 
+    -- gets saved to settings.py every post sends id if exists in table. add is allowed else prompt sign in
+    -- read is allowed w/out verification
+    -- 
+    tied to user_id 
+
+algorithm table
+    description
+    language
+    code body
+    user_id
+    useful ?
+    report method
+    private, public, team?
+
+
+
+
+report table
+    description of problem
+    algorithm id
+    id of user reporting it
+    id of user submitted it
+    -- some way to send a message to admin when submitted

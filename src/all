@@ -1,0 +1,15 @@
+    -h display add info -> all other flags 
+    -r repeat all info from last submission minus descr and code_body and specified command line args 
+    -v or view -> opens a gui to make it easier -- not immediate
+    -l: <language> 
+    -d: <description>
+    -c pulls the code body from the clipboard
+    -h display add info -> all other flags 
+    -r repeat all info from last submission minus descr and code_body and specified command line args 
+    -v or view -> opens a gui to make it easier -- not immediate
+    -l: <language> 
+    -d: <description>
+    -c pulls the code body from the clipboard
+repos is a console app designed to add and search code algorithms and other helpful tools.
+            accepted arguments are add, search, config, view, and -h for help which can be called for each method individually. 
+            call repos search <search>, <language> etc. can only call one function at a time

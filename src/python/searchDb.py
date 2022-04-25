@@ -1,6 +1,6 @@
 
 import sqlite3
-from cosine_similarity import cos_sim_results
+
 """
 query descriptions from all tables in dB for now -- later will add search refinements
 clean list of descriptions and search 
@@ -36,7 +36,8 @@ def searcher(table):
     bestResult = comparisonResults.index(max(comparisonResults))
     resultKey = primaryKeys[bestResult]
     return resultKey
-
+def testing():
+    print("testing is going well")
 
 
 
